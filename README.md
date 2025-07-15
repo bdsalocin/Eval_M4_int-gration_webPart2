@@ -1,8 +1,5 @@
 # Projet : Intégration de maquettes "Ghost Blog"
 
-![Bannière du projet Ghost Blog - à remplacer par une image de votre page d'accueil si disponible]
-*(Optionnel : Remplacez ce texte par une capture d'écran de votre page d'accueil)*
-
 ## Table des matières
 
 1.  [Introduction](#1-introduction)
