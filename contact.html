@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ghost Blog</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer">
+            <link rel="stylesheet" href="./style.css">
+    </head>
+
+<body>
+    <!-- Header -->
+    <header class="container-fluid header-background pb-5">
+        <!-- Navigation -->
+        <nav class="navbar navbar-dark d-flex justify-content-around align-items-center py-3">
+            <ul class="navbar-nav flex-row mr-4 mb-0">
+                <li class="nav-item mr-3"><a class="nav-link text-white" href="./index.html">Home</a></li>
+                <li class="nav-item mr-3"><a class="nav-link text-white" href="#">About</a></li>
+                <li class="nav-item mr-3"><a class="nav-link text-white" href="#">Collection</a></li>
+                <li class="nav-item mr-3"><a class="nav-link text-white" href="#">Author</a></li>
+                <li class="nav-item mr-3"><a class="nav-link text-white" href="#">Portal</a></li>
+            </ul>
+
+            <ul class="list-inline mb-0 d-flex align-items-center">
+                <li class="list-inline-item"><a class="text-white" href="#"><i class="fab fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a class="text-white" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><button class="btn btn-light rounded-pill text-dark btn-sm">Subscribe</button></li>
+            </ul>
+        </nav>
+
+        <div class="container text-center py-2"> 
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-5 text-white font-weight-bold mb-3">Contact</h1>
+                    <!-- <p class="lead text-white">Thoughts, stories and ideas</p> -->
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- Main -->
+<main>
+    <main class="container-fluid contact-page-background py-5">
+    <div class="container bg-white rounded shadow p-4 p-md-5">
+        <!-- Formulaire -->
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputFirstName">First Name</label>
+                    <input type="text" class="form-control" id="inputFirstName" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputLastName">Last Name</label>
+                    <input type="text" class="form-control" id="inputLastName" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCategory">Company</label>
+                    <input type="text" class="form-control" id="inputCategory" placeholder="ex : Apple, Tesla, Google...">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPhoneNumber">Phone Number</label>
+                    <input type="tel" class="form-control" id="inputPhoneNumber" placeholder="ex : 02 02 02 02 02">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="inputEmail">Email address</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="ex : @email.com" required>
+            </div>
+
+            <div class="form-group">
+                <label>What is the best time of day to reach you?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="timeOfDay" id="radioMorning" value="morning" checked>
+                    <label class="form-check-label" for="radioMorning">
+                        Morning
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="timeOfDay" id="radioAfternoon" value="afternoon">
+                    <label class="form-check-label" for="radioAfternoon">
+                        Afternoon
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Would you like to join the newsletter?</label>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="checkNewsletter">
+                        <label class="form-check-label" for="checkNewsletter">Sure !</label>
+                    </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg mt-3">Submit</button>
+        </form>
+    </div>
+</main>
+</main>
+<!-- Footer -->
+    <footer class="container-fluid footer-background p-5">
+    <div class="container"> 
+        <div class="row d-flex align-items-center justify-content-between">
+            <div class="col-12 col-md-auto text-center text-md-left mb-3 mb-md-0">
+                <p class="text-white mb-0">Ghost @ 2021</p>
+            </div>
+
+            <div class="col-12 col-md-auto text-center mb-3 mb-md-0">
+                <ul class="list-inline mb-0 d-flex flex-wrap justify-content-center">
+                    <li class="list-inline-item mr-3"><a class="nav-link text-white p-0" href="#">Data & Privacy</a></li>
+                    <li class="list-inline-item mr-3"><a class="nav-link text-white p-0" href="./contact.html">Contact</a></li>
+                    <li class="list-inline-item"><a class="nav-link text-white p-0" href="#">Contribute</a></li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-auto text-center text-md-right">
+                <p class="text-white mb-0">Powered by Ghost</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
