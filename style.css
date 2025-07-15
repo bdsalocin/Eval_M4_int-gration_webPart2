@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-background {
+    background: #ed18d4;
+    background: linear-gradient(150deg,rgba(237, 24, 212, 1) 0%, rgba(99, 41, 186, 1) 32%, rgba(39, 227, 164, 1) 100%);
+}
+
+
+.card-icon-background {
+    background-color: #f0f0f0;
+    width: 100%; 
+    height: 150px; /* Ajustez la hauteur selon ce que vous voulez */
+    /* Vous pouvez ajouter un border-radius si les coins de cette zone sont arrondis */
+    /* border-top-left-radius: .25rem; */ /* Si vous voulez des coins arrondis comme une carte Bootstrap par défaut */
+    /* border-top-right-radius: .25rem; */
+}
+
+.icon-large {
+    font-size: 3rem; /* Ajustez la taille de l'icône selon vos besoins (par exemple, 2rem, 4rem) */
+    color: #333; /* Couleur de l'icône (par exemple, un gris plus foncé ou même blanc si le fond est très sombre) */
+}
