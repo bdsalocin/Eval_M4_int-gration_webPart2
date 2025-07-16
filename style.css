@@ -16,3 +16,8 @@
     object-fit: cover;
     object-position: center;
 }
+.form-border {
+    border: 5px solid transparent; 
+    border-image: linear-gradient(150deg, rgba(237, 24, 212, 1) 0%, rgba(99, 41, 186, 1) 32%, rgba(39, 227, 164, 1) 100%) 1;
+    padding: 40px;
+}
