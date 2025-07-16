@@ -10,12 +10,6 @@
 .footer-background {
     background-color: black;
 }
-.conteneur1-1 .card img {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover;
-    object-position: center;
-}
 .form-border {
     border: 5px solid transparent; 
     border-image: linear-gradient(150deg, rgba(237, 24, 212, 1) 0%, rgba(99, 41, 186, 1) 32%, rgba(39, 227, 164, 1) 100%) 1;
